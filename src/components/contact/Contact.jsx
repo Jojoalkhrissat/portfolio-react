@@ -11,10 +11,10 @@ const Contact = () => {
     setMessage(true);
     emailjs
       .sendForm(
-        'service_k2qawqh',
-        'template_c6rkpn6',
+        'service_r1eseh7',
+        'template_672voto',
         formRef.current,
-        'X7K7ebhIeOy3YwHki'
+        'pg-kMC1J9BN7E8IyA'
       )
       .then(
         (result) => {
@@ -66,7 +66,7 @@ const Contact = () => {
           <button type="submit" className="btn btn-primary">
             Send Message
           </button>
-          {message && <span>Thanks, I'll reply ASAP :)</span>}
+          {message && <span>Thanks, I'll reply ASAP :</span>}
         </form>
       </div>
     </section>
